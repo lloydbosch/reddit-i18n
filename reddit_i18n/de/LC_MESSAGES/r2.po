@@ -94,20 +94,20 @@ msgstr "Gelöscht"
 
 #: r2/controllers/api.py:1195 r2/templates/subredditstylesheet.html:196
 msgid "bad image name"
-msgstr "schlechter bildname"
+msgstr "falscher bildname"
 
 #: r2/controllers/api.py:1199
 #, python-format
 msgid "too many images (you only get %d)"
-msgstr "zu viele Bilder (Sie bekommen nur %d)"
+msgstr "zu viele Bilder (Sie erhalten maximal %d)"
 
 #: r2/controllers/api.py:1207
 msgid "Invalid image or general image error"
-msgstr "ungültiges bild oder genereller bildfehler"
+msgstr "ungültiges bild oder allgemeiner Bildfehler"
 
 #: r2/controllers/api.py:1637
 msgid "claimed! now go to someone's userpage and give them a present!"
-msgstr "Beansprucht! Geh jetzt auf die Benutzerseite von jemandem und schenk Ihnen etwas!"
+msgstr "Beansprucht! Gehe jetzt auf die Benutzerseite von jemandem und schenke ihm etwas!"
 
 #: r2/controllers/api.py:1642
 msgid "claimed!"
@@ -123,15 +123,15 @@ msgstr "Versuch's morgen nochmal"
 
 #: r2/controllers/api.py:1905 r2/controllers/api.py:2066
 msgid "invalid css class"
-msgstr "ungültige css Klasse"
+msgstr "ungültige CSS-Klasse"
 
 #: r2/controllers/api.py:1908 r2/controllers/api.py:2069
 msgid "too many css classes"
-msgstr "zu viele css Klassen"
+msgstr "zu viele CSS-Klassen"
 
 #: r2/controllers/api.py:2085
 msgid "max flair templates reached"
-msgstr "maximale flair Vorlagen erreicht"
+msgstr "maximale Flair-Vorlagen erreicht"
 
 #: r2/controllers/api.py:2303
 msgid "redirecting..."
@@ -190,11 +190,11 @@ msgstr "um das zu tun, bitte einloggen"
 
 #: r2/controllers/errors.py:28
 msgid "you need to set a valid email address to do that."
-msgstr "du brauchst eine gültige email Addresse um das zu tun."
+msgstr "du brauchst eine gültige E-Mail-Addresse um das zu tun."
 
 #: r2/controllers/errors.py:29
 msgid "a url is required"
-msgstr "Eine URL ist nötig"
+msgstr "Eine URL ist erforderlich"
 
 #: r2/controllers/errors.py:30
 msgid "you should check that url"
@@ -202,23 +202,23 @@ msgstr "Du solltest diese URL überprüfen"
 
 #: r2/controllers/errors.py:31
 msgid "care to try these again?"
-msgstr "Magst du diese nochmal probieren?"
+msgstr "Kannst du dies noch einmal probieren?"
 
 #: r2/controllers/errors.py:32
 msgid "invalid user name"
-msgstr "Falscher Benutzername"
+msgstr "Ungültiger Benutzername"
 
 #: r2/controllers/errors.py:33
 msgid "that username is already taken"
-msgstr "Dieser Benutzername ist schon vergeben"
+msgstr "Dieser Benutzername ist schon vergibn"
 
 #: r2/controllers/errors.py:34
 msgid "that username is taken by a deleted account"
-msgstr "Dieser Benutzername ist schon von einem gelöschten Account vergeben"
+msgstr "Dieser Benutzername ist schon an einen gelöschten Account vergibn"
 
 #: r2/controllers/errors.py:35
 msgid "you can't send to a user that you have blocked"
-msgstr "Du kannst nichts and einen Benutzer senden, den du blockiert hast"
+msgstr "Du kannst nichts an einen Benutzer senden, den du blockiert hast"
 
 #: r2/controllers/errors.py:36
 msgid "id not specified"
@@ -234,7 +234,7 @@ msgstr "Du bist nicht als dieser Benutzer angemeldet."
 
 #: r2/controllers/errors.py:39
 msgid "the link you are commenting on has been deleted"
-msgstr "Der Link, den du kommentieren willst wurde gelöscht"
+msgstr "Der Link, den du kommentieren willst, wurde gelöscht"
 
 #: r2/controllers/errors.py:40
 msgid "that comment has been deleted"
@@ -242,7 +242,7 @@ msgstr "Dieses Kommentar wurde gelöscht"
 
 #: r2/controllers/errors.py:41
 msgid "that element has been deleted"
-msgstr "DIeses Element wurde gelöscht"
+msgstr "Dieses Element wurde gelöscht"
 
 #: r2/controllers/errors.py:42
 msgid "that password is unacceptable"
@@ -250,7 +250,7 @@ msgstr "Dieses Passwort ist inakzeptabel"
 
 #: r2/controllers/errors.py:43
 msgid "invalid password"
-msgstr "Falsches Passwort"
+msgstr "Ungültiges Passwort"
 
 #: r2/controllers/errors.py:44
 msgid "passwords do not match"
@@ -287,18 +287,18 @@ msgstr "Bitte gib einen Benutzernamen ein"
 #: r2/controllers/errors.py:53
 #, python-format
 msgid "that number isn't in the right range (%(min)d to %(max)d)"
-msgstr "Diese Nummer ist nicht im richtigen Bereicht (%(min)d to %(max)d"
+msgstr "Diese Nummer ist nicht im richtigen Bereich (%(min)d bis %(max)d"
 
 #: r2/controllers/errors.py:54
 msgid "you used a character here that we can't handle"
-msgstr "Du hast hier ein Zeichen benutzt, welches wir nicht bedienen können"
+msgstr "Du hast hier ein Zeichen benutzt, das wir nicht umsetzen können"
 
 #: r2/controllers/errors.py:55
 #, python-format
 msgid ""
 "your bid must be at least $%(min)d per day and no more than to $%(max)d in "
 "total."
-msgstr ""
+msgstr "Ihr Gebot muss mindestens $%(min)d pro Tag betragen und nicht mehr als $%(max)d insgesamt."
 
 #: r2/controllers/errors.py:56
 msgid "that link has already been submitted"
@@ -318,7 +318,7 @@ msgstr "Du hast nicht die Erlaubnis dort zu posten"
 
 #: r2/controllers/errors.py:60
 msgid "you must specify a subreddit"
-msgstr "Du musst ein Subreddit angeben"
+msgstr "Du musst ein Subreddit angibn"
 
 #: r2/controllers/errors.py:61
 msgid "that name isn't going to work"
@@ -327,7 +327,7 @@ msgstr "Dieser Benutzername wird nicht funktionieren"
 #: r2/controllers/errors.py:62
 #, python-format
 msgid "you are doing that too much. try again in %(time)s."
-msgstr "Du tust das zu oft, versuch's nochmal in %(time)s."
+msgstr "Zuviele Versuche, probiere es noch einmal in %(time)s."
 
 #: r2/controllers/errors.py:63
 msgid "your session has expired"
@@ -344,7 +344,7 @@ msgstr "Diese Option ist nicht gültig"
 #: r2/controllers/errors.py:70
 #, python-format
 msgid "the following emails are invalid: %(emails)s"
-msgstr "DIe folgenden E-Mails sind ungültig: %(emails)s"
+msgstr "Die folgenden E-Mails sind ungültig: %(emails)s"
 
 #: r2/controllers/errors.py:71
 msgid "please enter at least one email address"
@@ -368,17 +368,17 @@ msgstr "Bitte gib ein Datum in der Form mm/tt/jjjj ein."
 
 #: r2/controllers/errors.py:75
 msgid "the dates need to be in order and not identical"
-msgstr "Die Daten müssen geordnet und nicht identisch sein"
+msgstr "Die Daten müssen sortiertt und nicht identisch sein"
 
 #: r2/controllers/errors.py:76
 #, python-format
 msgid "please enter a date at least %(day)s days in the future"
-msgstr "Bitte gib ein Datum ein, welches mindestens %(day)s Tage in der Zukunft liegt"
+msgstr "Bitte gib ein Datum ein, das mindestens %(day)s Tage in der Zukunft liegt"
 
 #: r2/controllers/errors.py:77
 #, python-format
 msgid "please enter a date at least %(day)s days in the past"
-msgstr "Bitte gib ein Datum ein, welches mindestens %(day)s Tage in der Vergangenheit liegt"
+msgstr "Bitte gib ein Datum ein, das mindestens %(day)s Tage in der Vergangenheit liegt"
 
 #: r2/controllers/errors.py:78
 #, python-format
@@ -409,7 +409,7 @@ msgstr "Dieser Code wurde bereits beansprucht -- vielleicht von dir?"
 
 #: r2/controllers/errors.py:84
 msgid "that reddit doesn't allow text posts"
-msgstr "Dieses Reddit erlaubt keine Text-posts"
+msgstr "Dieses Reddit erlaubt keine Text-Posts"
 
 #: r2/controllers/errors.py:85
 msgid "that reddit only allows text posts"
@@ -421,15 +421,15 @@ msgstr "Das ist jetzt ein Teil der Vergangenheit; zu spät um darauf zu antworte
 
 #: r2/controllers/errors.py:87
 msgid "invalid css name"
-msgstr "ungültiger css Name"
+msgstr "ungültiger CSS-Name"
 
 #: r2/controllers/errors.py:88
 msgid "too many flair css classes"
-msgstr "zu viele flair css Klassen"
+msgstr "zu viele flair CSS-Klassen"
 
 #: r2/controllers/errors.py:89
 msgid "invalid client id"
-msgstr "ungültige client id"
+msgstr "ungültige Client-ID"
 
 #: r2/controllers/errors.py:90
 msgid "access denied by the user"
@@ -441,7 +441,7 @@ msgstr "Bitte bestätige das Formular"
 
 #: r2/controllers/feedback.py:40
 msgid "help translate reddit into your language"
-msgstr "Helfe uns, Reddit zu übersetzen"
+msgstr "Hilf uns, Reddit zu übersetzen"
 
 #: r2/controllers/feedback.py:41 r2/lib/menus.py:140
 msgid "help translate"
@@ -551,7 +551,7 @@ msgstr "Danke, dass du Creddits gekauft hast!"
 
 #: r2/controllers/ipn.py:460
 msgid "To spend them, visit [/gold](/gold) or your favorite person's userpage."
-msgstr "Um sie auszugeben, besuche [/gold](/gold) oder die Benutzerseite deiner Lieblingsperson."
+msgstr "Um sie auszugen, besuche [/gold](/gold) oder die Benutzerseite deiner Lieblingsperson."
 
 #: r2/controllers/ipn.py:473
 msgid "thanks for giving reddit gold!"
@@ -654,7 +654,7 @@ msgstr "Meine Identität"
 
 #: r2/controllers/oauth2.py:43
 msgid "Access my reddit username and signup date."
-msgstr "Auf meine Reddit Benutzernamen und Anmeldedatum zugreifen"
+msgstr "Auf meinen Reddit-Benutzernamen und Anmeldedatum zugreifen"
 
 #: r2/controllers/post.py:135
 msgid "over 18?"
@@ -670,7 +670,7 @@ msgstr "Fehler beim Authentifizieren der Karte.  'tschuldigung."
 
 #: r2/controllers/promotecontroller.py:488
 msgid "bad image"
-msgstr "schlechtes Bild"
+msgstr "ungültiges Bild"
 
 #: r2/controllers/reddit_base.py:870
 msgid "search failed"
@@ -694,11 +694,11 @@ msgstr "Bitte gib deine Stadt an"
 
 #: r2/controllers/validator/validator.py:1484
 msgid "please provide your state"
-msgstr "Bitte gib deinen Staat"
+msgstr "Bitte gib deinen Staat an"
 
 #: r2/controllers/validator/validator.py:1486
 msgid "please provide your zip or post code"
-msgstr ""
+msgstr "Bitte gib deine Postleitzahl an"
 
 #: r2/controllers/validator/validator.py:1488
 msgid "please pick a country"
@@ -706,7 +706,7 @@ msgstr "Bitte wähle ein Land aus"
 
 #: r2/controllers/validator/validator.py:1492
 msgid "Our ToS don't cover your country (yet). Sorry."
-msgstr "Unser ToS wird (noch) nicht für dein Land unterstüzt. 'tschuldigung."
+msgstr "Unsere Nutzungsbedingungen sind für dein Land (noch) nicht verfügbar. 'tschuldigung."
 
 #: r2/controllers/validator/validator.py:1511
 msgid "credit card numbers should be 13 to 16 digits"
@@ -722,11 +722,11 @@ msgstr "Kartenverifizierungscodes sollten 3 oder 4 Stellen haben"
 
 #: r2/lib/cssfilter.py:307
 msgid "if you need backslashes, you're doing it wrong"
-msgstr ""
+msgstr "Wenn du Backslashes brauchst, machst du es falsch."
 
 #: r2/lib/jsontemplates.py:302 r2/templates/usertext.html:55
 msgid "[removed]"
-msgstr ""
+msgstr "[entfernt]"
 
 #: r2/lib/menus.py:46
 msgid "what's hot"
@@ -782,7 +782,7 @@ msgstr "mehr"
 
 #: r2/lib/menus.py:63
 msgid "relevance"
-msgstr "Bedeutung"
+msgstr "Relevanz"
 
 #: r2/lib/menus.py:64 r2/templates/buttontypes.html:191
 msgid "controversial"
@@ -838,11 +838,11 @@ msgstr "automatisch gebannt"
 
 #: r2/lib/menus.py:84
 msgid "turn admin on"
-msgstr "Schalt Admin ein"
+msgstr "Schalte Admin ein"
 
 #: r2/lib/menus.py:85
 msgid "turn admin off"
-msgstr "Stell Admin ab"
+msgstr "Schalte Admin ab"
 
 #: r2/lib/menus.py:86 r2/lib/pages/pages.py:550 r2/lib/pages/pages.py:565
 msgid "preferences"
@@ -878,7 +878,7 @@ msgstr "Quelltext"
 
 #: r2/lib/menus.py:98
 msgid "mobile"
-msgstr ""
+msgstr "mobile"
 
 #: r2/lib/menus.py:99
 msgid "store"
@@ -945,7 +945,7 @@ msgstr "Hemd"
 
 #: r2/lib/menus.py:122
 msgid "traffic stats"
-msgstr "Verkehrsstatistiken"
+msgstr "Traffic-Statistiken"
 
 #: r2/lib/menus.py:125
 msgid "home"
@@ -974,7 +974,7 @@ msgstr "Moderatoren-Mail"
 
 #: r2/lib/menus.py:131
 msgid "edit approved submitters"
-msgstr "bestätigte Einreicher bearbeiten"
+msgstr "Bestätigte Einreicher bearbeiten"
 
 #: r2/lib/menus.py:132 r2/lib/menus.py:133 r2/lib/pages/pages.py:2755
 msgid "ban users"
@@ -995,7 +995,7 @@ msgstr "Erstellen"
 
 #: r2/lib/menus.py:138 r2/lib/pages/pages.py:1325
 msgid "my reddits"
-msgstr "Meine reddits"
+msgstr "Meine Reddits"
 
 #: r2/lib/menus.py:141 r2/templates/subredditstylesheet.html:87
 msgid "errors"
@@ -1003,7 +1003,7 @@ msgstr "Fehler"
 
 #: r2/lib/menus.py:143
 msgid "ads"
-msgstr "Werbungen"
+msgstr "Anzeigen"
 
 #: r2/lib/menus.py:144
 msgid "usage"
@@ -1170,7 +1170,7 @@ msgstr "...für Ihre WoW Gilde."
 
 #: r2/lib/rand_strings.py:14
 msgid "Reason to create a reddit 2"
-msgstr "...weil es viel Spaß ist!"
+msgstr "...weil es Spaß macht!"
 
 #: r2/lib/rand_strings.py:15
 msgid "Reason to create a reddit 3"
@@ -1246,7 +1246,7 @@ msgstr ""
 
 #: r2/lib/strings.py:48 r2/lib/template_helpers.py:104
 msgid "submitting..."
-msgstr "sendet..."
+msgstr "senden..."
 
 #: r2/lib/strings.py:51
 #, python-format
@@ -1279,7 +1279,7 @@ msgid ""
 "reddit is a source for what's new and popular online. vote on links that you "
 "like or dislike and help decide what's popular, or submit your own!"
 msgstr ""
-"Reddit ist eine Quelle für alles was neu und beliebt ist im Internet. Stimme "
+"Reddit ist eine Quelle für alles was neu und beliebt im Internet ist. Stimme "
 "ab über das was du magst oder ablehnst und reiche selbst Seiten ein. So "
 "hilfst du mit zu entscheiden, was wirklich von Bedeutung ist."
 
@@ -1298,7 +1298,7 @@ msgid ""
 "that link has been submitted to multiple reddits. you can try to [submit it "
 "again](%s)."
 msgstr ""
-"Dieser Link wurde zu mehrfach reddits.  Du kannst es noch einmal versuchen "
+"Dieser Link wurde in mehreren reddits eingereicht.  Du kannst es noch einmal versuchen "
 "[nochmal einreichen] ( %s )."
 
 #: r2/lib/strings.py:71
@@ -1318,7 +1318,7 @@ msgstr "(Keine Bange, es dauert nur ein paar Sekunden)"
 msgid ""
 "Log in or register to connect your reddit account with [%(app_name)s]"
 "(%(app_about_url)s)."
-msgstr ""
+msgstr "Log dich ein oder verbinden Sie Ihr Reddit-Konto mit [%(app_name)s]"
 
 #: r2/lib/strings.py:78
 #, python-format
@@ -1326,7 +1326,7 @@ msgid ""
 "I understand and agree that registration on or use of this site constitutes "
 "agreement to its %(user_agreement)s and %(privacy_policy)s."
 msgstr ""
-"Ich weiß und stimme zu, dass das Registrieren und das Verwenden dieser Seite "
+"Ich verstehe und stimme zu, dass das Registrieren und Verwenden dieser Seite "
 "ein Akzeptieren ihrer %(user_agreement)s und ihrer %(privacy_policy)s "
 "vorraussetzt."
 
@@ -1357,7 +1357,7 @@ msgid ""
 "issued):"
 msgstr ""
 "Es ist zu spät deine Stimme zu diesen Dingen zu ändern (Das Urteil wurde "
-"erteilt):"
+"gefällt):"
 
 #: r2/lib/strings.py:86
 #, python-format
@@ -1384,7 +1384,8 @@ msgstr "Dir wurde verboten, zu [%(title)s](%(url)s) einzureichen."
 msgid ""
 "you have been added to the list of users able to see [traffic for the "
 "sponsored link \"%(title)s\"](%(traffic_url)s)."
-msgstr ""
+msgstr "Du wurdest zu der Lister der Benutzer hinzugefügt, die [traffic "
+"for the sponsored link \"%(title)s\"](%(traffic_url)s) sehen können"
 
 #: r2/lib/strings.py:98
 msgid "you are a moderator"
@@ -1408,7 +1409,7 @@ msgstr "Du hast keine reddits abonniert"
 
 #: r2/lib/strings.py:106
 msgid "below are the reddits you have subscribed to"
-msgstr "Unten sind die reddits die Du abonniert hast"
+msgstr "Unten sind die reddits, die Du abonniert hast"
 
 #: r2/lib/strings.py:107
 msgid "below are the reddits that you are an approved submitter on."
@@ -1416,7 +1417,7 @@ msgstr "unten befinden sich die Reddits, bei denen du ein bestätigter Einreiche
 
 #: r2/lib/strings.py:108
 msgid "below are the reddits that you have moderator access to."
-msgstr "Unten sind die Reddits zu denen du als Moderator Zugang hast."
+msgstr "Unten sind die Reddits, zu denen du als Moderator Zugang hast."
 
 #: r2/lib/strings.py:111
 msgid ""
@@ -1443,12 +1444,12 @@ msgstr "\"%(brokenurl)s\" ist keine gültige URL"
 #: r2/lib/strings.py:118
 #, python-format
 msgid "\"%(cssprop)s\" is not a valid CSS property"
-msgstr "\"%(cssprop)s\" ist keine gültige CSS Eigenschaft"
+msgstr "\"%(cssprop)s\" ist kein gültiges CSS-Property"
 
 #: r2/lib/strings.py:119
 #, python-format
 msgid "\"%(cssvalue)s\" is not a valid value for CSS property \"%(cssprop)s\""
-msgstr "\"%(cssvalue)s\" ist kein gültiger Wert für die CSS Eigenschaft \"%(cssprop)s\""
+msgstr "\"%(cssvalue)s\" ist kein gültiger Wert für das CSS-Property \"%(cssprop)s\""
 
 #: r2/lib/strings.py:120
 #, python-format
@@ -1467,12 +1468,12 @@ msgstr "@imports sind nicht erlaubt"
 #: r2/lib/strings.py:123
 #, python-format
 msgid "invalid CSS property list \"%(proplist)s\""
-msgstr "ungültige CSS Eigenschaftenliste \"%(proplist)s\""
+msgstr "ungültige CSS-Property-List \"%(proplist)s\""
 
 #: r2/lib/strings.py:124
 #, python-format
 msgid "unknown CSS rule type \"%(ruletype)s\""
-msgstr "unbekannter CSS Regeltyp"
+msgstr "unbekannter CSS-Regeltyp"
 
 #: r2/lib/strings.py:126
 msgid "to anything interesting: news article, blog entry, video, picture..."
@@ -1498,7 +1499,12 @@ msgid ""
 "program is still learning, and may even have some bugs, so if you feel the "
 "ban was a mistake, please submit a link to our [request a reddit listing]"
 "(%(link)s) and be sure to include the **exact name of the reddit**."
-msgstr ""
+msgstr "**Dieser reddit wurde gebannt**\n"
+"Wahrscheinlich geschah dies automatisch durch unseren Spam-Filter. Diese "
+Software lernt noch und hat möglicherweise sogar ein paar Bugs. Solltest du "
+denken, dass dies ein Fehler ist, bitte reiche einen Link zu [request a reddit "
+listing](%(link)s) ein und stelle sicher, den **exakten Namen des reddits** "
+anzugeben." 
 
 #: r2/lib/strings.py:130
 #, python-format
@@ -1507,7 +1513,10 @@ msgid ""
 "The full discussion is available [here](%(fd_link)s); you can also get there "
 "by clicking the link's title (in the middle of the toolbar, to the right of "
 "the comments button)."
-msgstr ""
+msgstr "Das folgende ist ein Auszug aus dem, was Reddit-Benutzer über diese "
+"Seite zu sagen haben. Die vollständige Diskussion ist [hier](%(fd_link)s) "
+"verfügbar; du kannst also dorthin gelangen, indem du den Linktitel (in der "
+"Mitte der Toolbar, rechts vom Kommentar-Button) klickst."
 
 #: r2/lib/strings.py:132
 msgid ""
@@ -1522,13 +1531,15 @@ msgid ""
 "You are submitting a text-based post. Speak your mind. A title is required, "
 "but expanding further in the text field is not. Beginning your title with "
 "\"vote up if\" is violation of intergalactic law."
-msgstr ""
+msgstr "Du reichst einen Text-Post ein. Sprich dich aus. Ein Titel ist "
+"erforderlich, das Text-Feld ist optional. Titel, die mit \"Vote up if\" "
+"beginnen, verstoßen gegen intergalaktisches Recht.
 
 #: r2/lib/strings.py:134
 msgid ""
 "You should consider using [reddit's mobile interface](http://i.reddit.com/)."
 msgstr ""
-"Du solltest dir überlegen [Reddit's mobiles Interface](http://i.reddit.com/) zu benutzen."
+"Du solltest in Erwägung ziehen, [Reddit's mobiles Interface](http://i.reddit.com/) zu benutzen."
 
 #: r2/lib/strings.py:135
 msgid "we're going to need to verify your email address for you to proceed."
@@ -1658,7 +1669,7 @@ msgid ""
 "----\n"
 "\n"
 msgstr ""
-"Hier ist eine Nachricht, die beinhaltet war\n"
+"Hier ist eine Nachricht, die enthalten war\n"
 "\n"
 "----\n"
 "\n"
@@ -1999,7 +2010,7 @@ msgstr "%(bonus)s Bonus-Reddits"
 
 #: r2/lib/pages/pages.py:1594
 msgid "try entering those letters again"
-msgstr "versuch nochmal, diese Zeichen einzugeben"
+msgstr "versuch nochmal, diese Zeichen einzugibn"
 
 #: r2/lib/pages/pages.py:1654
 msgid "previous search"
@@ -2938,7 +2949,7 @@ msgstr "Geschenknachricht (optional):"
 
 #: r2/templates/gold.html:165 r2/templates/goldpayment.html:50
 msgid "give"
-msgstr "geben"
+msgstr "gibn"
 
 #: r2/templates/gold.html:172
 msgid ""
@@ -2946,7 +2957,7 @@ msgid ""
 "month of reddit gold)"
 msgstr ""
 "Wie viele Creddits willst du kaufen? (Jedes erlaubt es dir, einen "
-"Monat Reddit Gold zu geben.)"
+"Monat Reddit Gold zu gibn.)"
 
 #: r2/templates/goldpayment.html:37
 msgid "The following gift note will be attached:"
@@ -4539,7 +4550,7 @@ msgstr "Danke fürs abonnieren!"
 
 #: r2/templates/thanks.html:39
 msgid "enter your confirmation code below to claim your gift creddits"
-msgstr "gebe unten dein Bestätigungscode ein um deinen Geschenk-Creddits zu erhalten"
+msgstr "gib unten dein Bestätigungscode ein um deinen Geschenk-Creddits zu erhalten"
 
 #: r2/templates/thanks.html:41
 msgid "enter your confirmation code below to activate reddit gold"
